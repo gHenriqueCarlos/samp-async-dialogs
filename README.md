@@ -26,9 +26,9 @@ While you're on it and if you don't use PawnPlus yet,
 
 Functions
 ```pawn
-ShowPlayerAsyncDialog(playerid, style, const caption[], const info[], const button1[], const button2[])
-ShowPlayerAsyncDialogStr(playerid, style, ConstStringTag:caption, ConstStringTag:info, ConstStringTag:button1, ConstStringTag:button2)
-ShowPlayerAsyncDialogPages(playerid, dialogstyle, const caption[], info[], const button1[] = "Select", const button2[] = "Close", maxitemslist = 15, const nextbutton[] = "{FFA500}Next ->", const lastbutton[] = "{FF8C00}Back <-")
+ShowPlayerAsyncDialog(playerid, style, const caption[], const info[], const button1[], const button2[]);
+ShowPlayerAsyncDialogStr(playerid, style, ConstStringTag:caption, ConstStringTag:info, ConstStringTag:button1, ConstStringTag:button2);
+ShowPlayerAsyncDialogPages(playerid, dialogstyle, const caption[], info[], const button1[] = "Select", const button2[] = "Close", maxitemslist = 15, const nextbutton[] = "{FFA500}Next ->", const lastbutton[] = "{FF8C00}Back <-");
 ```
 
 This will show the dialog and await for the response, which will pause the
@@ -126,7 +126,6 @@ CMD:asyncdialogspages(playerid, params[]){
 
 
 ## Note
-* I just took the dialog system with pages from @Robson04 and modified the code.
-
-Dialog-Pages (Original): https://github.com/Robson04/dialog-pages
-samp-async-dialogs (Original): https://github.com/AGraber/samp-async-dialogs
+* I just took the dialog system with pages from @Robson04 and modified the code. Whether or not it's the best way to handle dialogs with pages, I simply adapted it to work.
+* Dialog-Pages (Original): https://github.com/Robson04/dialog-pages
+* Samp-async-dialogs (Original): https://github.com/AGraber/samp-async-dialogs
