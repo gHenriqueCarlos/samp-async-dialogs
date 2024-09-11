@@ -129,3 +129,5 @@ CMD:asyncdialogspages(playerid, params[]){
 * I just took the dialog system with pages from @Robson04 and modified the code. Whether or not it's the best way to handle dialogs with pages, I simply adapted it to work.
 * Dialog-Pages (Original): https://github.com/Robson04/dialog-pages
 * Samp-async-dialogs (Original): https://github.com/AGraber/samp-async-dialogs
+
+* Use this include to create dialogs with pages: https://github.com/Hreesang/samp-pagination-dialog (much much better)
